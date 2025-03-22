@@ -1,8 +1,10 @@
+/// user define data type
 class Car {
   String? brand;
   String? model;
   int? year;
 
+  // method
   void displayInfo() {
     print("This Car Brand: $brand, Model: $model, Year: $year");
   }
