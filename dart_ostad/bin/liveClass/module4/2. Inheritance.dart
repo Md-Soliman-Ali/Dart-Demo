@@ -3,6 +3,15 @@ import 'father.dart';
 class Son extends Father {
   String sonName;
 
+  @override
+  incomeSource() {
+    print("Flutter Developer");
+  }
+
+  getFatherIncomeSource() {
+    super.incomeSource();
+  }
+
   // Son(this.sonName, String fatherName) : super(fatherName);
   Son(this.sonName) : super('Father');
 }
@@ -13,4 +22,9 @@ main() {
   print(child.sonName);
   child.land = '150 Bigha';
   print(child.land);
+
+  child.getFatherIncomeSource();
+
+  // Method Overriding
+  child.incomeSource();
 }
