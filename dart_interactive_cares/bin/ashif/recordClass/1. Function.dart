@@ -25,6 +25,8 @@ int add(int num1, int num2) {
 // dart arrow function (return keyword & curly brackets not required)
 int sub(int num1, int num2) => num1 - num2;
 
+/// anonymous function: (){}
+
 String greet() => "Hello!";
 
 void main() {
