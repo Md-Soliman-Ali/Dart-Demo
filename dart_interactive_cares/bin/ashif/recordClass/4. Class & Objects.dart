@@ -1,13 +1,16 @@
+/// first letter of the class name will be uppercase & first letter of that class property or method name should be in camel case.
 class Car {
   String companyName = "Toyota";
   late String modelName;
 
+  /// constructor
   /*
   Car(String givenModel) {
     model = givenModel;
   }
   */
 
+  /// constructor
   Car({required String givenModel}) {
     modelName = givenModel;
   }

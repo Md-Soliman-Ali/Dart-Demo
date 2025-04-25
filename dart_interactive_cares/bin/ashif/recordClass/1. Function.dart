@@ -9,6 +9,7 @@ void makeMyCake(int quantity, String item1, [String item2 = "Milk"]) {
 }
 
 // named parameters
+// If not required & do not provide the argument below, a null value will be displayed.
 void makeMyBreakfast({
   required int? quantity,
   required String? item1,
@@ -23,11 +24,12 @@ int add(int num1, int num2) {
 }
 
 // dart arrow function (return keyword & curly brackets not required)
+// works on one line instruction
 int sub(int num1, int num2) => num1 - num2;
 
-/// anonymous function: (){}
-
 String greet() => "Hello!";
+
+/// anonymous function: (){}
 
 void main() {
   // required positional parameters
