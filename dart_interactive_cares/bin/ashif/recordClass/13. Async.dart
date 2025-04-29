@@ -8,6 +8,7 @@ void task1() {
 Future<String> task2() async {
   Duration duration = Duration(seconds: 3);
 
+  /// sync
   /*
   sleep(duration);
   String result = "Task 2 Data";
