@@ -20,8 +20,6 @@ class Bird extends Animal {
   }
 }
 
-class Airplane with CanFly {}
-
 mixin CanFly {
   void fly() {
     print("change position by flying");
@@ -35,6 +33,8 @@ mixin CanSwim {
 }
 
 class Duck with CanFly, CanSwim {}
+
+class Airplane with CanFly {}
 
 void main() {
   Fish().move();

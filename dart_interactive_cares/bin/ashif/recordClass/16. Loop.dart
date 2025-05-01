@@ -5,6 +5,7 @@ void learnFlutter(int days) {
 }
 
 void main() {
+  /// Step: 01
   /*
   for (int i = 1; i <= 10; i++) {
     // print("Hello World: $i");
@@ -15,22 +16,24 @@ void main() {
   }
   */
 
+  /// Step: 02
   // learnFlutter(7);
 
   List<String> fruits = ["Apple", "Mango", "Guava", "Blueberry"];
 
+  /// Step: 03
   /*
   for (int i = 0; i < fruits.length; i++) {
     print(fruits[i]);
   }
   */
 
-  /*
+  /// Step: 03
   for (String fruit in fruits) {
     print(fruit);
   }
-  */
 
+  /// Step: 04
   List<int> winnerNumbers = [5, 14, 17, 18];
   List<int> myTickets = [6, 14, 19, 21];
 
