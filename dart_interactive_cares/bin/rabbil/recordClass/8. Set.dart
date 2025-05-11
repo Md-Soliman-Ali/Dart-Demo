@@ -1,9 +1,14 @@
 void main() {
-  var city = <String>{"Dhaka", "Barisal", "CoxBazar"};
+  /// Set is UnOrder List, Avoid Duplicate Values (Works with Unique Value)
+
+  Set<String> city = <String>{"Dhaka", "Barisal", "CoxBazar"};
   print(city);
 
+  // Add Last
   city.add("Khulna");
   print(city);
+
+  // Add Multiple Last
   city.addAll({"Rangpur", "Rajshahi"});
   print(city);
 
